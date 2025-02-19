@@ -1,0 +1,21 @@
+{
+  "name": "rem-trans",
+  "author": "weijw",
+  "version": "1.0.0",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.34.8",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build": "npm run build:es",
+    "build:es": "rollup -c"
+  }
+}
