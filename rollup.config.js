@@ -8,7 +8,13 @@ export default {
 		{
 			file: "es/index.js",
 			format: "cjs",
+      sourcemap: true,
 		},
+    {
+      file: 'es/index.esm.js',
+      format: 'esm',
+      sourcemap: true,
+    },
 	],
 	plugins: [resolve(), commonjs(), typescript()],
 };

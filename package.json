@@ -1,5 +1,6 @@
 {
   "name": "rem-trans",
+  "description": "A library to convert px to rem and vice versa on mobile devices",
   "author": "weijw",
   "version": "1.0.0",
   "main": "es/index.js",
@@ -15,7 +16,7 @@
     "typescript": "^5.7.3"
   },
   "scripts": {
-    "build": "npm run build:es",
-    "build:es": "rollup -c"
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
   }
 }
