@@ -1,12 +1,12 @@
 {
   "name": "rem-trans",
   "description": "A library to convert px to rem and vice versa on mobile devices",
-  "author": "weijw",
+  "author": "nnnlillian",
   "version": "1.0.0",
   "main": "es/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
@@ -17,6 +17,14 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c --watch"
+    "dev": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NnnLillian/rem-trans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NnnLillian/rem-trans/issues"
   }
 }
